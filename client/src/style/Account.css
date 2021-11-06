@@ -1,0 +1,37 @@
+.account-info {
+  color: white;
+  margin-left: 2rem;
+}
+
+.logout-button {
+  align-self: center;
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 0.5rem;
+  width: 8rem;
+  margin-top: 15rem;
+}
+
+.logout-button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+
+.account-info__username--title {
+  font-weight: 600;
+}
+
+.account-info__username {
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+.account-info__email--title {
+  font-weight: 600;
+}
+
+.account-info__email {
+  font-weight: 300;
+}

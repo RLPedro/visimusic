@@ -1,0 +1,43 @@
+.register__form {
+  font-size: 2rem;
+  margin-left: 1rem;
+  color: white;
+}
+
+.register__header {
+  font-size: 2.3rem;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1.5rem;
+  display: flex;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+  flex-direction: column;
+  color: white;
+}
+
+.register__username, .register__name, .register__email, .register__password {
+  font-size: 1.5rem;
+  outline: none;
+  color: white;
+  border: 0;
+  border-bottom: 1px solid white;
+  margin: 1rem 0 1rem 0;
+  background-color: transparent;
+  display: block;
+}
+
+.register__button {
+  color: white;
+  border: 1px solid white;
+  background-color: transparent;
+  padding: 0.5rem;
+  width: 8rem;
+  margin-top: 1rem;
+}
+
+.register__button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}

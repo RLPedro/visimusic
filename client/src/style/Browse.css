@@ -1,0 +1,48 @@
+.browse {
+    text-align: center;
+    margin-top: 6rem;
+}
+
+.MuiPaper-root {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 19rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.browse__item {
+  text-align: center;
+  width: 50%;
+  padding: 1rem 0 1rem 0;
+}
+
+.browse__item:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.browse__button-close {
+  font-family: 'Montserrat', sans-serif;
+  border: 1px solid black;
+  background-color: transparent;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  margin: 1rem 0 1rem 0;
+}
+
+.browse__button {
+  font-size: 1rem;
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+.browse__button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}

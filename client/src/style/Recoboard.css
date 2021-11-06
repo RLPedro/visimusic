@@ -1,0 +1,76 @@
+.recoboard {
+  color: white;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.recoproduct {
+  position: relative;
+  border: 1px solid white;
+  flex: 0 0 auto;
+  height: 11rem;
+  width: 8rem;
+  margin-right: 0.5rem;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.recoboard__container {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-bottom: 1rem;
+}
+
+.recoboard__groupheader {
+  margin-top: 0;
+}
+
+.recoproduct__img-container {
+  margin: 3px 0 3px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
+}
+
+.recoproduct__img {
+  max-height:100%;
+  max-width: 100%;
+}
+
+.recoproduct__name {
+  color: black;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.recoproduct__use {
+  color: black;
+  margin-top: 0.1rem;
+  text-align: center;
+  font-size: 0.7rem;
+}
+
+.recoproduct__add {
+  font-size: 0.6rem;
+  position: absolute;
+  width: 3.8rem;
+  /* left: 50%;
+  transform: translate(-50%, 0); */
+  right: 0.3rem;
+  bottom: 0.4rem;
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
+}
+
+.recoproduct__price {
+  position: absolute;
+  font-size: 0.6rem;
+  bottom: 0.5rem;
+  left: 0.3rem;
+  color: black;
+}

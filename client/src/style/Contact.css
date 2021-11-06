@@ -1,0 +1,15 @@
+.contact {
+  color: white;
+}
+
+.contact__title {
+  font-size: 2.3rem;
+  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 1.5rem;
+  margin-left: 1rem;
+}
+
+.contact__content {
+  margin-left: 1rem;
+}
